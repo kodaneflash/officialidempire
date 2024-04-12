@@ -8,9 +8,6 @@ import { useShoppingCart } from "use-shopping-cart";
 
 const links = [
   { name: "Home", href: "/" },
-  { name: "Men", href: "/Men" },
-  { name: "Women", href: "/Women" },
-  { name: "Teens", href: "/Teens" },
 ];
 
 export default function Navbar() {
@@ -21,7 +18,7 @@ export default function Navbar() {
       <div className="flex items-center justify-between mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl">
         <Link href="/">
           <h1 className="text-2xl md:text-4xl font-bold">
-            Next<span className="text-primary">Commerce</span>
+            ID<span className="text-primary">Empire</span>
           </h1>
         </Link>
 
